@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "图的拓扑排序"
 date:   2016-05-13 13:25:35 +0200
 categories: jekyll update
 ---
@@ -50,5 +50,5 @@ def ladderLength(self, start, end, dict):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjI2ODI0NDZdfQ==
+eyJoaXN0b3J5IjpbODgxMDg0NzA2LC0xMTIyNjgyNDQ2XX0=
 -->
