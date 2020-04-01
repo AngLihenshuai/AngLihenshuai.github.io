@@ -46,9 +46,6 @@ def ladderLength(self, start, end, dict):
         
         return next_list
 ```
-
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxMDg0NzA2LC0xMTIyNjgyNDQ2XX0=
+eyJoaXN0b3J5IjpbOTgxNjI1NjI0LC0xMTIyNjgyNDQ2XX0=
 -->
