@@ -106,6 +106,7 @@ Pivot = 13
 def quicksort(nums, start, end):
 	if start >= end:
 		return
+	
 	i, j = start, end
 	pivot = (nums[start] + nums[end]) / 2
 	while i <= j:
@@ -115,15 +116,12 @@ def quicksort(nums, start, end):
 			j -= 1
 		if i <= j:
 			nums[i], nums[j] = nums[j], nums[i]
-		i += 1
-
-j -= 1
-
-quicksort(nums, start, j)
-
-quicksort(nums, i, end)
-
-return
+			i += 1
+			j -= 1
+	
+	quicksort(nums, start, j)
+	quicksort(nums, i, end)
+	return
 ```
   
 
@@ -138,5 +136,5 @@ Leetcode 912. Sort an Array：
 LeetCode 624. Maximum Distance in Arrays
 [https://leetcode.com/problems/maximum-distance-in-arrays](https://leetcode.com/problems/maximum-distance-in-arrays)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyODM3ODgyLDE1MTE5OTE1MDldfQ==
+eyJoaXN0b3J5IjpbLTcxMDA1MzkxOCwxNTExOTkxNTA5XX0=
 -->
