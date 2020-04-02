@@ -29,7 +29,7 @@ Pivot = (`3` + `15`) / `2` = `9`
 
 下一步开始从左指针开始移动：
 
-对于左指针 3 < 9, 满足左指针右移条件
+对于左 (Left) 指针 3 < 9, 满足左指针右移条件
 
 ![](https://lh6.googleusercontent.com/KnYXKB3lCVG4a4cWMjq0CLu6E2corShmBjXQ3hqGzq0zJ7pLe1LI7K-6Ho7BT90uqGE0Cq6H-Ilzn0qFZ4Av-6qsavxq8opu7UshITwHT6cU5e5Q0XN76ze9rbIcchpF67p2A96_)
 
@@ -47,7 +47,7 @@ Pivot = (`3` + `15`) / `2` = `9`
 
 由于交换过后左右指针指向的数必然满足要求（左指针小于Pivot， 右指针大于Pivot）
 
-左指针继续向左移动 右指针继续向右移动各一位
+左 (Left) 指针继续向左移动 右 (Right) 指针继续向右移动各一位
 
 ![](https://lh3.googleusercontent.com/WG7q9_E86Ly9g0fdHaqGMT1cC-ZhIIlkD2g1bmMwIWpJipt6OT14XjPS3uNTQHOCppYTuRMoi8hMzqvcaWis1xgafZuFAdPBMsGWuN0QRC_akBp_t1Kf9QxcZ-sFQc3FHIT_SB9W)
 
@@ -73,18 +73,9 @@ Right指针（绿色指针）的最终位置 的最终位置到数组结束位�
 
 ![](https://lh5.googleusercontent.com/QZUp2bK0zcx--QYqXXWIf788XjtoLNMCUIH9nqDNlWkbnIHLsUBUOW-pJ41twikT0ZumiOTebVjUwgFnTnNPmrLeS8fj6iC7XKguHqU3QVv7K_Yngr4n8HyTBFXjjSSMV7eu-t5_)
 
-  
-  
-  
+对于左边数组： 
 
-对于左边数组： 对于右边数组
-
-  
-
-Pivot = (Nums[start] + Nums[end]) / 2 Pivot = (Nums[start] + Nums[end]) / 2
-
-  
-
+Pivot = (`Nums[start]` + `Nums[end]`) / 2 
 Pivot = 4.5 Pivot = 13
 
   
@@ -173,5 +164,5 @@ LeetCode 624. Maximum Distance in Arrays
 
 [https://leetcode.com/problems/maximum-distance-in-arrays](https://leetcode.com/problems/maximum-distance-in-arrays)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTYwMjAxMDEsMTUxMTk5MTUwOV19
+eyJoaXN0b3J5IjpbLTU4NjgzMTMwLDE1MTE5OTE1MDldfQ==
 -->
