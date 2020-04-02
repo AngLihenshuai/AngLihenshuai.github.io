@@ -5,6 +5,8 @@ date:   2020-01-02 13:25:35 +0200
 categories: jekyll update
 ---
 
+说到排序算法，很多小伙伴都并不陌生。可是要真正对快速排序
+
 快速排序思想的本质是来源于冒泡排序，冒泡排序是通过比较相邻的两个元素，每次将最小的元素调换到最顶端
 
   
@@ -221,5 +223,5 @@ LeetCode 624. Maximum Distance in Arrays
 
 [https://leetcode.com/problems/maximum-distance-in-arrays](https://leetcode.com/problems/maximum-distance-in-arrays)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxMzI4Nzc2LDE1MTE5OTE1MDldfQ==
+eyJoaXN0b3J5IjpbLTU4OTI5ODY3MywxNTExOTkxNTA5XX0=
 -->
