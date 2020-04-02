@@ -15,25 +15,14 @@ categories: jekyll update
 
 Quick Sort快速排序的关键是规定排序点Pivot, 然后给数组两边各放一个指针。当左指针指向的数大于等于排序点Pivot，而右指针指向的点小于等于排序点Pivot时，交换两点数值。当右指针位于左指针左侧时，停止循环并开启左右两次递归。
 
-  
-  
-  
+## 具体样例 
 
-举一个简单的例子：
-
-  
-
-当数组为 [3, 20, 1, 6, 11, 9, 15]时：
-
+当数组 l = `[3, 20, 1, 6, 11, 9, 15]` 时：
 我们取迎面双指针， 左指针指向数组起始点Start，右指针指向数组终止点End
 
-  
+ ![](https://lh5.googleusercontent.com/FlVK5rZ-aOvCcgSEi9f57ZlubQA_t4_qN9DtxVmAVlr-Er6xKRnnUhQq5Uq2Ack9ez-pJIfbdRPbZKWzUXKKjS6Ie8YxEGVvkiMbNJd5kFl5J-pPy6OtkMgQirZWnntzKXHGaFyO)
 
-![](https://lh5.googleusercontent.com/FlVK5rZ-aOvCcgSEi9f57ZlubQA_t4_qN9DtxVmAVlr-Er6xKRnnUhQq5Uq2Ack9ez-pJIfbdRPbZKWzUXKKjS6Ie8YxEGVvkiMbNJd5kFl5J-pPy6OtkMgQirZWnntzKXHGaFyO)
-
-  
-
-中间值 Pivot我们取数组两端的中间值
+对于中间值 Pivot取数组两端的中间值
 
   
 
@@ -216,5 +205,5 @@ LeetCode 624. Maximum Distance in Arrays
 
 [https://leetcode.com/problems/maximum-distance-in-arrays](https://leetcode.com/problems/maximum-distance-in-arrays)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDk1NDA1MywxNTExOTkxNTA5XX0=
+eyJoaXN0b3J5IjpbMTU5ODYyNDMyMiwxNTExOTkxNTA5XX0=
 -->
