@@ -5,22 +5,11 @@ date:   2020-01-02 13:25:35 +0200
 categories: jekyll update
 ---
 
+
 说到排序算法，很多小伙伴都并不陌生。快速排序作为排序算法中时间复杂度较低 `(O(n * logn)` 的一种，在许多其他算法中都有重大作用。本文将试图从最细致到角度，将快速排序算法的每一帧变化都还原出来，给让小伙伴们**还原来自算法的美**
 
 
-
-可是要真正对其内部的每一步变化要说出所以然来，
-
-快速排序思想的本质是来源于冒泡排序，冒泡排序是通过比较相邻的两个元素，每次将最小的元素调换到最顶端
-
-  
-
-显而易见，对于长度为5的数组，共需要比较 4 + 3 + 2 + 1次。 所以冒泡排序的时间复杂度(Time Complexity)是O(n * n),
-
-  
-  
-
-当我们需要更快的排序算法时，一种思路是使用递归来辅助快速排序
+快速排序思想的本质是来源于冒泡排序，冒泡排序是通过比较相邻的两个元素，每次将最小的元素调换到最顶端。显而易见，对于长度为5的数组，共需要比较 4 + 3 + 2 + 1次。 所以冒泡排序的时间复杂度(Time Complexity)是O(n * n), 当我们需要更快的排序算法时，一种思路是使用递归来辅助快速排序，快速排序也就应运而生。
 
   
 
@@ -227,5 +216,5 @@ LeetCode 624. Maximum Distance in Arrays
 
 [https://leetcode.com/problems/maximum-distance-in-arrays](https://leetcode.com/problems/maximum-distance-in-arrays)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDYyNzUzNjUsMTUxMTk5MTUwOV19
+eyJoaXN0b3J5IjpbLTIwMTUyOTkzMjEsMTUxMTk5MTUwOV19
 -->
