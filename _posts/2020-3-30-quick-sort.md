@@ -5,7 +5,7 @@ date:   2020-01-02 13:25:35 +0200
 categories: jekyll update
 ---
 
-说到排序算法，很多小伙伴都并不陌生。快速排序作为排序算法中时间复杂度较低 `(O(n * logn)` 的一种，在许多其他算法中都有重大作用。
+说到排序算法，很多小伙伴都并不陌生。快速排序作为排序算法中时间复杂度较低 `(O(n * logn)` 的一种，在许多其他算法中都有重大作用。本文将试图从最细致到角度，将快速排序算法的每一帧变化都还原出来，给让小伙伴们**还原来自算法的美**
 
 
 
@@ -227,5 +227,5 @@ LeetCode 624. Maximum Distance in Arrays
 
 [https://leetcode.com/problems/maximum-distance-in-arrays](https://leetcode.com/problems/maximum-distance-in-arrays)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzc5MTE5MywxNTExOTkxNTA5XX0=
+eyJoaXN0b3J5IjpbLTE4MDYyNzUzNjUsMTUxMTk5MTUwOV19
 -->
