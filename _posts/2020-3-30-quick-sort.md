@@ -29,19 +29,13 @@ Pivot = (`3` + `15`) / `2` = `9`
 
 下一步开始从左指针开始移动：
 
-3 < 9, 满足左指针又移条件
+对于左指针 3 < 9, 满足左指针右移条件
 
 ![](https://lh6.googleusercontent.com/KnYXKB3lCVG4a4cWMjq0CLu6E2corShmBjXQ3hqGzq0zJ7pLe1LI7K-6Ho7BT90uqGE0Cq6H-Ilzn0qFZ4Av-6qsavxq8opu7UshITwHT6cU5e5Q0XN76ze9rbIcchpF67p2A96_)
-
-  
-  
 
 发现20的值大于Pivot，左指针停止
 
 ![](https://lh5.googleusercontent.com/gzBtC8D38gv6jLEBl9Ud93IW3JtoHU6xtpIJjd42dHX3qSqZY0AQ9f86tfSQVzayhObCKMEd3DzVI06_hXMAoS4Tlo5q-xirK-qupD1b6uf3AlZrRI0itsaRPEkd1BZruOqWE-76)
-
-  
-  
 
 开始将右指向左移动移动，直到发现9小于等于Pivot 9
 
@@ -51,40 +45,23 @@ Pivot = (`3` + `15`) / `2` = `9`
 
 ![](https://lh6.googleusercontent.com/B4268jfyblYtvulaMiKUV5AsHXtkBpiIJFVB2iZmN1iO1J69_MDU5gGK9Zpcyt3RFYMmw50cCKfr3FpcbEkRX_ng5duUKIGSYF-TBh_C24pMh0mqBasxvuC6vZYvtFRc6SK2NuKr)
 
-  
-  
-
 由于交换过后左右指针指向的数必然满足要求（左指针小于Pivot， 右指针大于Pivot）
 
 左指针继续向左移动 右指针继续向右移动各一位
 
-  
-
 ![](https://lh3.googleusercontent.com/WG7q9_E86Ly9g0fdHaqGMT1cC-ZhIIlkD2g1bmMwIWpJipt6OT14XjPS3uNTQHOCppYTuRMoi8hMzqvcaWis1xgafZuFAdPBMsGWuN0QRC_akBp_t1Kf9QxcZ-sFQc3FHIT_SB9W)
-
-  
-  
 
 1小于9，左指针右移
 
 ![](https://lh3.googleusercontent.com/XRa1Ua0xvssxGUgA5gOOaIlgfEwXpBPH29kYuzQlJpbsg5LU-g4KZRFZYYPMXVscXhkhrpD7b1ILHtYb_NuzhYpTpVOvW4zHmTYi8ooMMzbW0Et-RUF8QGaVUfq4yKAoAO3YxjSi)
 
-  
-
 6小于9，左指针右移
 
 ![](https://lh3.googleusercontent.com/QyZMtyJwNELXaP6xwBZq2KE9bpS3kcQoG7L2vuJTu7nlkpJnb-AV43MElzSazwKgBUE2pPvEZXoLzXGmeR09mPoP2sxx3bD_oSLbTR5KcTB55ebugae3kDmCORL8vVpD1BzEcMSb)
 
-  
-
 11大于9， 左指针不动。 排查右指针， 11大于9，满足右指针移动条件， 右指针左移
 
-  
-
 ![](https://lh5.googleusercontent.com/iLdLY6ONJ-D94ZrtO7TMb01AmFz8L41zDHGaHWNhrITCTiUDDWB2qs2fSKXVuqKVkJOKah-WXzvj7gRMw9FJj7YWq1_NB11ohZvaOmuY4LWqyU8kNxYrUj_yAWIScIBCnpsJg_BZ)
-
-  
-  
 
 右指针（绿色指针）位于左指针左侧， While循环跳出 数组分成两部分：
 
@@ -93,8 +70,6 @@ Pivot = (`3` + `15`) / `2` = `9`
 左侧数组由数组起始位置（start）到 右侧数组由Left指针（红色指针）
 
 Right指针（绿色指针）的最终位置 的最终位置到数组结束位置（end）
-
-  
 
 ![](https://lh5.googleusercontent.com/QZUp2bK0zcx--QYqXXWIf788XjtoLNMCUIH9nqDNlWkbnIHLsUBUOW-pJ41twikT0ZumiOTebVjUwgFnTnNPmrLeS8fj6iC7XKguHqU3QVv7K_Yngr4n8HyTBFXjjSSMV7eu-t5_)
 
@@ -198,5 +173,5 @@ LeetCode 624. Maximum Distance in Arrays
 
 [https://leetcode.com/problems/maximum-distance-in-arrays](https://leetcode.com/problems/maximum-distance-in-arrays)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2OTI3MjI4MCwxNTExOTkxNTA5XX0=
+eyJoaXN0b3J5IjpbLTE3NTYwMjAxMDEsMTUxMTk5MTUwOV19
 -->
