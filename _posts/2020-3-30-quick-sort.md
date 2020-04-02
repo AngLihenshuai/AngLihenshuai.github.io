@@ -102,32 +102,20 @@ Pivot = 13
 
 ### Python
 
-```  
+```python  
 def quicksort(nums, start, end):
-
-if start >= end:
-
-return
-
-i, j = start, end
-
-pivot = (nums[start] + nums[end]) / 2
-
-while i <= j:
-
-while i <= j and nums[i] < pivot:
-
-i += 1
-
-while i <= j and nums[j] > pivot:
-
-j -= 1
-
-if i <= j:
-
-nums[i], nums[j] = nums[j], nums[i]
-
-i += 1
+	if start >= end:
+		return
+	i, j = start, end
+	pivot = (nums[start] + nums[end]) / 2
+	while i <= j:
+		while i <= j and nums[i] < pivot:
+			i += 1
+		while i <= j and nums[j] > pivot:
+			j -= 1
+		if i <= j:
+			nums[i], nums[j] = nums[j], nums[i]
+		i += 1
 
 j -= 1
 
@@ -136,7 +124,7 @@ quicksort(nums, start, j)
 quicksort(nums, i, end)
 
 return
-
+```
   
 
 快速排序算法的时间复杂度时O(n * logn), 空间复杂度是O(n). 巧妙地使用了递归的思路加快了排序的进程。类似的时间复杂度为N的算法还有归并排序和选择排序。
@@ -150,5 +138,5 @@ Leetcode 912. Sort an Array：
 LeetCode 624. Maximum Distance in Arrays
 [https://leetcode.com/problems/maximum-distance-in-arrays](https://leetcode.com/problems/maximum-distance-in-arrays)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE0NDk3NzkyLDE1MTE5OTE1MDldfQ==
+eyJoaXN0b3J5IjpbNzcyODM3ODgyLDE1MTE5OTE1MDldfQ==
 -->
