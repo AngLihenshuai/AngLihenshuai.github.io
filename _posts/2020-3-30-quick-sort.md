@@ -24,19 +24,12 @@ Quick Sort快速排序的关键是规定排序点Pivot, 然后给数组两边各
 
 对于中间值 Pivot取数组两端的中间值
 
-  
-
-Pivot = (Nums[start] + Nums[end]) / 2
-
-Pivot = (3 + 15) / 2 = 9
-
-  
+Pivot = (`Nums[start]` + `Nums[end]`)  / `2` 
+Pivot = (`3` + `15`) / `2` = `9`
 
 下一步开始从左指针开始移动：
 
 3 < 9, 满足左指针又移条件
-
-  
 
 ![](https://lh6.googleusercontent.com/KnYXKB3lCVG4a4cWMjq0CLu6E2corShmBjXQ3hqGzq0zJ7pLe1LI7K-6Ho7BT90uqGE0Cq6H-Ilzn0qFZ4Av-6qsavxq8opu7UshITwHT6cU5e5Q0XN76ze9rbIcchpF67p2A96_)
 
@@ -205,5 +198,5 @@ LeetCode 624. Maximum Distance in Arrays
 
 [https://leetcode.com/problems/maximum-distance-in-arrays](https://leetcode.com/problems/maximum-distance-in-arrays)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODYyNDMyMiwxNTExOTkxNTA5XX0=
+eyJoaXN0b3J5IjpbMTI2OTI3MjI4MCwxNTExOTkxNTA5XX0=
 -->
