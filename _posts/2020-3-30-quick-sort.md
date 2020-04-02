@@ -73,25 +73,17 @@ Right指针（绿色指针）的最终位置 的最终位置到数组结束位�
 
 ![](https://lh5.googleusercontent.com/QZUp2bK0zcx--QYqXXWIf788XjtoLNMCUIH9nqDNlWkbnIHLsUBUOW-pJ41twikT0ZumiOTebVjUwgFnTnNPmrLeS8fj6iC7XKguHqU3QVv7K_Yngr4n8HyTBFXjjSSMV7eu-t5_)
 
-对于左边数组： 
+对于左边数组(黄色数组)： 
+Pivot = (`Nums[start]` + `Nums[end]`)  /  `2` 
+Pivot = 4.5
 
-Pivot = (`Nums[start]` + `Nums[end]`) / 2 
-Pivot = 4.5 Pivot = 13
-
-  
-  
-  
-  
-  
-  
-  
-  
+对于右边数组(粉色数组)：
+Pivot = (`Nums[start]` + `Nums[end]`)  /  `2` 
+Pivot = 13
 
 ![](https://lh4.googleusercontent.com/z4HrFsjevZvMDXLC_UG7NLvG0PbOeZDAgsmkC8Tj6AypmX8i0O1nZB90E5rMgNWTDAgl1Ad1UiPlVoZOpPgbrB07TqCf8GisJ7rJpMW-DMi41iR7iVst3SZ_tUXiVXzOB9oswmKB)
 
-  
-  
-  
+再增加一层递归
 
 ![](https://lh6.googleusercontent.com/6Infeheeyktx5cAe4snTHnJBl5pNIyqq9iaL28jNOf1jsL4Utve4Y9WBvr_geTBvrYItvtNcc1cE5GeK43sR0rSF7OhLI5sSQpwf9i_YS43h3aW4_o2ueTNIk8ohSGkZK6Eb1ruC)
 
@@ -164,5 +156,5 @@ LeetCode 624. Maximum Distance in Arrays
 
 [https://leetcode.com/problems/maximum-distance-in-arrays](https://leetcode.com/problems/maximum-distance-in-arrays)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NjgzMTMwLDE1MTE5OTE1MDldfQ==
+eyJoaXN0b3J5IjpbLTE0Mzc3MjIxMTgsMTUxMTk5MTUwOV19
 -->
