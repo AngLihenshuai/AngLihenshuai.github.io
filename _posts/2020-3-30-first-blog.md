@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "图的拓扑排序"
-date:   2016-05-13 13:25:35 +0200
+date:   2020-01-02 13:25:35 +0200
 categories: jekyll update
 ---
 ## First Blog 
@@ -47,5 +47,5 @@ def ladderLength(self, start, end, dict):
         return next_list
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxNjI1NjI0XX0=
+eyJoaXN0b3J5IjpbMTUxMTk5MTUwOSw5ODE2MjU2MjRdfQ==
 -->
